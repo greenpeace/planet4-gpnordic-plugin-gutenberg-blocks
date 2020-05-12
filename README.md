@@ -1,1 +1,2 @@
-# -planet4-gpnordic-plugin-leads
+# Plugin: Leads
+#### Greenpeace Nordic, Planet 4
