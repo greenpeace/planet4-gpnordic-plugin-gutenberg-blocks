@@ -1,0 +1,12 @@
+{
+    "name": "greenpeace/planet4-gpnordic-plugin-gutenberg-blocks",
+    "description": "Greenpeace Nordic specific Gutenberg customisations and additions to the core stack.",
+    "authors": [
+        {
+            "name": "Greenpeace Nordic",
+            "email": "skoleva@greenpeace.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
