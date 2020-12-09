@@ -8,6 +8,19 @@
         }
     ],
     "type": "wordpress-plugin",
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability" : "develop",
+    "require": {},
+    "config": {
+      "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Greenpeace\\Planet4GPNGutenbergBlocks\\": [
+                "includes"
+            ],
+            "Greenpeace\\Planet4GPNGutenbergBlocks\\Blocks\\": [
+                "includes/blocks"
+            ]
+        }
+    }
 }
