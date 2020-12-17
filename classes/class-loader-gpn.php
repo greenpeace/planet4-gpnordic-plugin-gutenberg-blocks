@@ -74,36 +74,6 @@ if (! class_exists('P4_GPN_GBKS') ) {
 		}
 
 		/**
-		 * Load required files. The plugins namespaces should:
-		 * a. include P4GBKS string
-		 * b. follow the names of the sub-directories of the current __DIR__ (classes/)
-		 *    - if not, then proper replacements should be added like below
-		 */
-		// private function load_files() {
-		// 	try {
-		// 		spl_autoload_register(
-		// 			function ( $class_name ) {
-		// 				if ( false !== strpos( $class_name, 'P4GPNGBKS' ) ) {
-		// 					$class_name_parts = explode( '\\', $class_name );
-		// 					$real_class_name  = array_pop( $class_name_parts );
-		// 					$file_name        = 'class-' . str_ireplace( '_', '-', strtolower( $real_class_name ) );
-
-		// 					$namespace = implode( '\\', $class_name_parts );
-		// 					$path      = str_ireplace(
-		// 						[ 'P4GPNGBKS', 'Blocks', 'Controllers', 'Views', '_', '\\' ],
-		// 						[ '', 'blocks', 'controller', 'view', '-', '/' ],
-		// 						strtolower( $namespace )
-		// 					);
-		// 					require_once P4GPNGBKS_BASE_PATH . '/' . $path . '/' . $file_name . '.php';
-		// 				}
-		// 			}
-		// 		);
-		// 	} catch ( \Exception $e ) {
-		// 		echo esc_html( $e->getMessage() );
-		// 	}
-		// }
-
-		/**
 		 * Loads all shortcake blocks registered from within this plugin.
 		 *
 		 * @param array  $services The Controller services to inject.
