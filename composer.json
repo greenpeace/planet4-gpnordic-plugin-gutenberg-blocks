@@ -7,8 +7,9 @@
             "email": "skoleva@greenpeace.org"
         }
     ],
+    "license": "MIT",
     "type": "wordpress-plugin",
-    "minimum-stability" : "develop",
+    "minimum-stability" : "stable",
     "require": {},
     "config": {
       "optimize-autoloader": true
