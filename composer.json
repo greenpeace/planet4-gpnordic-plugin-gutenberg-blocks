@@ -8,19 +8,27 @@
         }
     ],
     "type": "wordpress-plugin",
-    "minimum-stability" : "develop",
+    "minimum-stability" : "stable",
     "require": {},
+    "require-dev": {
+      "squizlabs/php_codesniffer": "^3.5.3",
+      "wp-coding-standards/wpcs": "^2.2.0"
+    },
     "config": {
       "optimize-autoloader": true
     },
     "autoload": {
         "psr-4": {
-            "Greenpeace\\Planet4GPNGutenbergBlocks\\": [
-                "includes"
+            "P4GPNGBKS\\": [
+                "classes"
             ],
-            "Greenpeace\\Planet4GPNGutenbergBlocks\\Blocks\\": [
-                "includes/blocks"
+            "P4GPNGBKS\\Blocks\\": [
+                "classes/blocks"
             ]
         }
+    },
+    "scripts": {
+      "fixes": "vendor/squizlabs/php_codesniffer/bin/phpcbf",
+      "sniffs": "vendor/squizlabs/php_codesniffer/bin/phpcs"
     }
 }
