@@ -4,7 +4,7 @@
  * Description: Contains the Gutenberg blocks that are used by Planet4 for Greenpeace Nordic.
  * Plugin URI: https://github.com/greenpeace/planet4-gpnordic-plugin-gutenberg-blocks
  * Php Version: 7.0
- * Version: 0.1.1
+ * Version: 0.1.2
  * Text Domain: planet4-gpn-blocks
  *
  * @category Wordpress-plugin
