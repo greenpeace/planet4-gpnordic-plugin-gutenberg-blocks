@@ -63,3 +63,4 @@ require P4GPNGBKS_BASE_PATH . 'classes/class-loader-gpn.php';
 
 // Initialize the Plugin.
 $p4_gpnordic_gutenberg_blocks = P4GPNGBKS\P4_GPN_GBKS::get_instance();
+
